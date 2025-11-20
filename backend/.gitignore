@@ -1,0 +1,52 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Environment variables ---
+.env
+.env.*.local
+
+# --- Logs ---
+logs/
+*.log
+logs/*.log
+debug.log
+error.log
+combined.log
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Build output ---
+dist/
+build/
+coverage/
+.tmp/
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- IDE & Editor files ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- PM2 ---
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# --- Optional: uploads or temp storage ---
+uploads/
+tmp/
